@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="theme-color" content="#667eea">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Consulta de Miembros - OMBP 2026">
+    <meta property="og:description" content="Consulta si eres miembro de mesa para las Elecciones Generales 2026">
+    <meta property="og:image" content="img/portada.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="OMBP - Consulta de Miembros de Mesa">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="">
+    <meta name="twitter:title" content="Consulta de Miembros - OMBP 2026">
+    <meta name="twitter:description" content="Consulta si eres miembro de mesa para las Elecciones Generales 2026">
+    <meta name="twitter:image" content="img/portada.jpg">
+    
+    <!-- WhatsApp -->
+    <meta property="og:site_name" content="OMBP 2026">
+    <meta property="og:locale" content="es_PE">
+    
+    <title>Consulta de Miembros - OMBP 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="character"></div>
+            <div class="logo">
+                <div class="logo-text">OMBP</div>
+            </div>
+            <div class="subtitle">Elecciones Generales</div>
+            <div class="date-badge">12 de abril de 2026</div>
+        </div>
+
+        <div class="content" id="formScreen">
+            <h1 class="title">Consulta de miembros de mesa</h1>
+            
+            <form id="datoForm">
+                <div class="form-group">
+                    <label for="dato">Dato:</label>
+                    <input 
+                        type="text" 
+                        id="dato" 
+                        name="dato" 
+                        placeholder="Número de Dato"
+                        maxlength="8"
+                        required
+                    >
+                </div>
+                
+                <button type="submit" class="btn">Consultar</button>
+            </form>
+            
+            <div class="footer">
+                Privacidad - Condiciones
+            </div>
+        </div>
+
+        <div class="result-screen" id="resultScreen">
+            <div class="result-emoji">🎉</div>
+            <div class="result-title">¡hola!</div>
+            <div class="result-message" id="resultMessage"></div>
+            <div class="dato-display">Dato: <span id="datoDisplay"></span></div>
+            <button class="back-btn" onclick="resetForm()">Nueva Consulta</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
