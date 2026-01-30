@@ -3,24 +3,24 @@
 const messages = [
     "estás en la cima... de mi miembro.\n¡felicidades! 🍆",
     "eres mi miembro.\n¡felicidades! 🎊",
-    "¡felicidades!\neres mi miembro favorito. 😏",
-    "estás en mi lista...\nla de miembros destacados. 😎",
+    "¡felicidades!\neres la cabeza mi miembro . 😏",
+    "estás en mi lista...\nla de miembro destacados. 😎",
     "tu Dato fue seleccionado...\npara ser mi miembro. 🎯",
-    "¡sorpresa!\neres miembro VIP... de mi colección. 💎",
+    "¡sorpresa!\neres mi miembro VIP... 💎",
     "verificado ✓\neres oficialmente mi miembro. 🔥",
-    "¡qué coincidencia!\neres justo el miembro que buscaba. 🎰",
-    "felicitaciones...\ntu miembro ha sido aprobado. 🏆",
-    "¡importante!\neres mi miembro del mes. 📅",
+    "¡qué coincidencia!\nTe oareces Ami miembro . 🎰",
+    "felicitaciones...\ntu miembro destacado zona vip. 🏆",
+    "¡importante!\neres El ultimo pelo de mi miembro. 📅",
     "resultado:\nmiembro certificado. 💯",
     "¡alerta!\ndetectado como mi miembro especial. 🚨",
-    "tu Dato confirma que...\neres mi miembro premium. ⭐",
-    "¡ganaste!\neres mi miembro de oro. 🥇",
-    "búsqueda completada:\nmiembro encontrado con éxito. 🔍",
-    "¡enhorabuena!\ntu miembro está en nuestro registro. 🎪",
+    "tu Dato confirma que...\neres miembro premium. ⭐",
+    "¡ganaste!\neres  miembro de oro. 🥇",
+    "búsqueda completada:\ncabeza de miembro encontrado con éxito. 🔍",
+    "¡enhorabuena!\ntu Eres selecionado para dar masajes ami miembro está en nuestro registro. 🎪",
     "¡atención!\nmiembro exclusivo detectado. 💼",
     "procesando...\n¡miembro confirmado! ✅",
     "resultado positivo:\nmiembro calificado. 🌟",
-    "¡increíble!\neres mi miembro estrella. ⭐"
+    "¡increíble!\neres miembro estrella. ⭐"
 ];
 
 // Array de emojis aleatorios
